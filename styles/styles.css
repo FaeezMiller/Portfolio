@@ -41,3 +41,32 @@ h1{
 .nasa{
   height: 200px ;
 }
+#home h1 {
+  text-align: center;
+  animation: 2s title infinite;
+}
+@keyframes title {
+  0% {
+      opacity: 0;
+      transform: rotateX(90def);
+  }
+  50% {
+      opacity: 1;
+      transform: rotateX(720deg);
+  }
+  100% {
+      opacity: 1;
+      transform: rotateX(720deg);
+  }
+}
+white_check_mark
+eyes
+raised_hands
+
+
+
+
+
+
+
+
