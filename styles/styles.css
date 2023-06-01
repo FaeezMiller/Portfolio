@@ -12,6 +12,7 @@
   cursor: pointer;
   font-size: 20vw;
   color: transparent;
+  font-family: fja;
   background:url(https://i.postimg.cc/zXdg1nHp/textbg.jpg);
   background-size: 40%;
   background-position: 50% 50%;
@@ -31,6 +32,7 @@
 .nasa{
   height: 200px ;
 }
+
 #home h1 {
   text-align: center;
   animation: 2s title infinite;
@@ -48,6 +50,18 @@
       opacity: 1;
       transform: rotateX(720deg);
   }
+}
+.form{width: 100%;}
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .main-timeline:after{
